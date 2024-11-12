@@ -1,0 +1,21 @@
+.filterContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.Modalcontainer {
+	padding-top: 20px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+.Modalcontainer > div {
+	cursor: pointer;
+	padding: 10px;
+}
+.Modalcontainer > div:hover {
+	/* background-color: hsl(var(--button)); */
+	background:rgb(43, 43, 253);
+	color: #fff;
+}
